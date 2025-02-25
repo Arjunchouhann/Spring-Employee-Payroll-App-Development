@@ -3,6 +3,7 @@ package com.bridgelabz.employeepayrollapp.service;
 import com.bridgelabz.employeepayrollapp.dto.EmployeeDTO;
 import com.bridgelabz.employeepayrollapp.model.EmployeeEntity;
 import com.bridgelabz.employeepayrollapp.repository.EmployeeRepository;
+import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,6 +14,8 @@ import java.util.Optional;
 
 //UC2 & UC3 Introducing and adding Service layer
 @Service
+//Using SLF4J annotation
+@Slf4j
 public class EmployeeService {
     private static final Logger logger = LoggerFactory.getLogger(EmployeeService.class);
 
