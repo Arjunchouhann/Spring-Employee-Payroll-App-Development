@@ -41,6 +41,7 @@ public class EmployeeController {
         }
     }
 
+
     // To create a new employee
     @PostMapping("/create")
     public EmployeeEntity addEmployee(@RequestBody EmployeeDTO employeeDTO) {
