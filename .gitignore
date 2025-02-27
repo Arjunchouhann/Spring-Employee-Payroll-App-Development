@@ -23,6 +23,8 @@ mvnw
 mvnw.cmd
 README.md
 .gitignore
+application.log
+application.log.2025-02-27.0.gz
 
 ### NetBeans ###
 /nbproject/private/

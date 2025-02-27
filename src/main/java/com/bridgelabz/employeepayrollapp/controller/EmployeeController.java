@@ -52,16 +52,16 @@ public class EmployeeController {
 
     //Service To create a new employee
     @PostMapping("/create")
-    public EmployeeEntity addEmployee(@Valid @RequestBody EmployeeDTO employeeDTO) {
+    public ResponseEntity<?> addEmployee(@Valid @RequestBody EmployeeDTO employeeDTO) {
         if (logger.isInfoEnabled()) {
             logger.info("Create employee endpoint called");
         }
-        return employeeService.addEmployee(employeeDTO);
+        return ResponseEntity.ok(employeeService.addEmployee(employeeDTO));
     }
 
     //Service To update the employee
     @PutMapping("/update/{id}")
-    public ResponseEntity<EmployeeEntity> updateEmployee(@PathVariable Long id, @RequestBody EmployeeDTO employeeDTO) {
+    public ResponseEntity<?> updateEmployee(@PathVariable Long id, @RequestBody EmployeeDTO employeeDTO) {
         if (logger.isInfoEnabled()) {
             logger.info("Update employee endpoint called with ID: {}", id);
         }
