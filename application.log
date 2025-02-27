@@ -9,3 +9,28 @@
 2025-02-27 11:37:20 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication No active profile set, falling back to 1 default profile: "default"
 2025-02-27 11:37:29 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2025-02-27 11:37:30 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 11.353 seconds (process running for 12.479)
+2025-02-27 13:00:09 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 20932 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-02-27 13:00:09 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27 13:00:09 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-02-27 13:00:20 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 13:00:21 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 13.423 seconds (process running for 14.653)
+2025-02-27 13:03:45 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 17344 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-02-27 13:03:45 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27 13:03:45 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-02-27 13:03:54 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 13:03:55 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 11.307 seconds (process running for 12.5)
+2025-02-27 13:33:36 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 5744 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-02-27 13:33:36 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27 13:33:36 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-02-27 13:33:47 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 13:33:48 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 13.273 seconds (process running for 14.631)
+2025-02-27 13:34:43 [http-nio-8080-exec-1] [INFO] c.b.e.controller.EmployeeController All employee endpoint called
+2025-02-27 13:35:31 [http-nio-8080-exec-4] [INFO] c.b.e.controller.EmployeeController Create employee endpoint called
+2025-02-27 13:35:48 [http-nio-8080-exec-5] [INFO] c.b.e.controller.EmployeeController Create employee endpoint called
+2025-02-27 13:36:04 [http-nio-8080-exec-7] [INFO] c.b.e.controller.EmployeeController Create employee endpoint called
+2025-02-27 13:44:49 [http-nio-8080-exec-9] [INFO] c.b.e.controller.EmployeeController Create employee endpoint called
+2025-02-27 13:58:42 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 7280 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-02-27 13:58:42 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27 13:58:42 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-02-27 13:58:52 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 13:58:52 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 11.311 seconds (process running for 12.534)

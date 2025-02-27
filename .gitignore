@@ -21,6 +21,8 @@ target/
 .gitattributes
 mvnw
 mvnw.cmd
+README.md
+.gitignore
 
 ### NetBeans ###
 /nbproject/private/
