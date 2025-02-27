@@ -1,0 +1,11 @@
+2025-02-27 11:36:31 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 17472 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-02-27 11:36:31 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27 11:36:31 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-02-27 11:36:43 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 11:36:44 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 14.655 seconds (process running for 16.169)
+2025-02-27 11:36:44 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Employee Payroll App Started in () Environment
+2025-02-27 11:37:20 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 14604 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-02-27 11:37:20 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27 11:37:20 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication No active profile set, falling back to 1 default profile: "default"
+2025-02-27 11:37:29 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 11:37:30 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 11.353 seconds (process running for 12.479)
