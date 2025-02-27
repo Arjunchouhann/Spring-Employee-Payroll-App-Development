@@ -3,6 +3,7 @@ package com.bridgelabz.employeepayrollapp.controller;
 import com.bridgelabz.employeepayrollapp.dto.EmployeeDTO;
 import com.bridgelabz.employeepayrollapp.model.EmployeeEntity;
 import com.bridgelabz.employeepayrollapp.service.EmployeeService;
+import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -20,10 +21,11 @@ public class EmployeeController {
 
     private static final Logger logger = LoggerFactory.getLogger(EmployeeController.class);
 
+    //Injecting employee repository class
     @Autowired
     EmployeeService employeeService;
 
-    // To get all the employees
+    //Service To get all the employees
     @GetMapping
     public List<EmployeeEntity> getAllEmployees() {
         if (logger.isInfoEnabled()) {
@@ -32,7 +34,7 @@ public class EmployeeController {
         return employeeService.getAllEmployee();
     }
 
-    // To get employee by id
+    //Service To get employee by id
     @GetMapping("/get/{id}")
     public ResponseEntity<Optional<EmployeeEntity>> getEmployeeById(@PathVariable Long id) {
         if (logger.isInfoEnabled()) {
@@ -48,16 +50,16 @@ public class EmployeeController {
     }
 
 
-    // To create a new employee
+    //Service To create a new employee
     @PostMapping("/create")
-    public EmployeeEntity addEmployee(@RequestBody EmployeeDTO employeeDTO) {
+    public EmployeeEntity addEmployee(@Valid @RequestBody EmployeeDTO employeeDTO) {
         if (logger.isInfoEnabled()) {
             logger.info("Create employee endpoint called");
         }
         return employeeService.addEmployee(employeeDTO);
     }
 
-    // To update the employee
+    //Service To update the employee
     @PutMapping("/update/{id}")
     public ResponseEntity<EmployeeEntity> updateEmployee(@PathVariable Long id, @RequestBody EmployeeDTO employeeDTO) {
         if (logger.isInfoEnabled()) {
@@ -72,7 +74,7 @@ public class EmployeeController {
         }
     }
 
-    // To delete the employee
+    //Service To delete the employee
     @DeleteMapping("/delete/{id}")
     public ResponseEntity<Void> deleteEmployee(@PathVariable Long id) {
         if (logger.isInfoEnabled()) {
@@ -83,7 +85,7 @@ public class EmployeeController {
             return ResponseEntity.noContent().build();
         } else {
             logger.warn("No employee found with ID: {} to delete", id);
-            return ResponseEntity.status(HttpStatus.NOT_FOUND).build();
+            return ResponseEntity.status(HttpStatus.NOT_FOUND).build(); //
         }
     }
 }

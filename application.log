@@ -34,3 +34,35 @@
 2025-02-27 13:58:42 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
 2025-02-27 13:58:52 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
 2025-02-27 13:58:52 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 11.311 seconds (process running for 12.534)
+2025-02-27 16:12:34 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 5412 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-02-27 16:12:34 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27 16:12:34 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-02-27 16:12:40 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 16:12:40 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 7.34 seconds (process running for 8.386)
+2025-02-27 16:14:00 [http-nio-8080-exec-1] [WARN] o.s.w.s.m.s.DefaultHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: Required request body is missing: public com.bridgelabz.employeepayrollapp.model.EmployeeEntity com.bridgelabz.employeepayrollapp.controller.EmployeeController.addEmployee(com.bridgelabz.employeepayrollapp.dto.EmployeeDTO)]
+2025-02-27 16:15:35 [http-nio-8080-exec-4] [INFO] c.b.e.controller.EmployeeController Create employee endpoint called
+2025-02-27 16:16:06 [http-nio-8080-exec-5] [WARN] o.s.w.s.m.s.DefaultHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('}' (code 125)): was expecting double-quote to start field name]
+2025-02-27 16:16:28 [http-nio-8080-exec-7] [INFO] c.b.e.controller.EmployeeController Create employee endpoint called
+2025-02-27 16:16:48 [http-nio-8080-exec-8] [INFO] c.b.e.controller.EmployeeController Create employee endpoint called
+2025-02-27 16:42:48 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 10516 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-02-27 16:42:48 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-02-27 16:42:48 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-02-27 16:42:54 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-02-27 16:42:55 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 7.082 seconds (process running for 8.109)
+2025-02-27 16:44:03 [http-nio-8080-exec-3] [INFO] c.b.e.controller.EmployeeController Delete employee endpoint called with ID: 1
+2025-02-27 16:44:04 [http-nio-8080-exec-3] [INFO] c.b.e.service.EmployeeService Deleted employee with ID: 1
+2025-02-27 16:44:10 [http-nio-8080-exec-4] [INFO] c.b.e.controller.EmployeeController Delete employee endpoint called with ID: 2
+2025-02-27 16:44:10 [http-nio-8080-exec-4] [INFO] c.b.e.service.EmployeeService Deleted employee with ID: 2
+2025-02-27 16:44:15 [http-nio-8080-exec-5] [INFO] c.b.e.controller.EmployeeController Delete employee endpoint called with ID: 3
+2025-02-27 16:44:15 [http-nio-8080-exec-5] [INFO] c.b.e.service.EmployeeService Deleted employee with ID: 3
+2025-02-27 16:44:20 [http-nio-8080-exec-6] [INFO] c.b.e.controller.EmployeeController Delete employee endpoint called with ID: 4
+2025-02-27 16:44:20 [http-nio-8080-exec-6] [INFO] c.b.e.service.EmployeeService Deleted employee with ID: 4
+2025-02-27 16:44:24 [http-nio-8080-exec-7] [INFO] c.b.e.controller.EmployeeController Delete employee endpoint called with ID: 5
+2025-02-27 16:44:24 [http-nio-8080-exec-7] [INFO] c.b.e.service.EmployeeService Deleted employee with ID: 5
+2025-02-27 16:44:34 [http-nio-8080-exec-8] [INFO] c.b.e.controller.EmployeeController All employee endpoint called
+2025-02-27 16:44:52 [http-nio-8080-exec-9] [INFO] c.b.e.controller.EmployeeController Delete employee endpoint called with ID: 6
+2025-02-27 16:44:52 [http-nio-8080-exec-9] [INFO] c.b.e.service.EmployeeService Deleted employee with ID: 6
+2025-02-27 16:44:54 [http-nio-8080-exec-10] [INFO] c.b.e.controller.EmployeeController Delete employee endpoint called with ID: 7
+2025-02-27 16:44:54 [http-nio-8080-exec-10] [INFO] c.b.e.service.EmployeeService Deleted employee with ID: 7
+2025-02-27 16:45:10 [http-nio-8080-exec-1] [WARN] o.s.w.s.m.s.DefaultHandlerExceptionResolver Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.bridgelabz.employeepayrollapp.model.EmployeeEntity com.bridgelabz.employeepayrollapp.controller.EmployeeController.addEmployee(com.bridgelabz.employeepayrollapp.dto.EmployeeDTO): [Field error in object 'employeeDTO' on field 'name': rejected value [arjun]; codes [Pattern.employeeDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeDTO.name,name]; arguments []; default message [name],[Ljakarta.validation.constraints.Pattern$Flag;@7759c93f,^[A-Z]{1}[a-zA-Z\s]{2,}$]; default message [Employee name Invalid]] ]
+2025-02-27 16:45:42 [http-nio-8080-exec-3] [INFO] c.b.e.controller.EmployeeController Create employee endpoint called
