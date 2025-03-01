@@ -18,3 +18,250 @@
 2025-03-01 10:56:17 [http-nio-8080-exec-6] [WARN] c.b.e.service.EmployeeService Deleting employee with ID: 3
 2025-03-01 10:56:19 [http-nio-8080-exec-6] [ERROR] c.b.e.service.EmployeeService Employee not found with ID: 3
 2025-03-01 10:56:19 [http-nio-8080-exec-6] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [com.bridgelabz.employeepayrollapp.exceptions.EmployeeNotFoundException: No employee found with ID: 3]
+2025-03-01 11:40:59 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 21036 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-03-01 11:40:59 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-01 11:40:59 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-03-01 11:41:05 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01 11:41:05 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 7.579 seconds (process running for 8.548)
+2025-03-01 11:44:53 [HikariPool-1 housekeeper] [WARN] com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=1m20s157ms530µs800ns).
+2025-03-01 11:46:36 [http-nio-8080-exec-1] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 11:46:36 [http-nio-8080-exec-1] [INFO] c.b.e.service.EmployeeService Adding employee: EmployeeDTO(name=Arjun Rajput, salary=25000.0, Gender=Male, startDate=01-03-2025, note=Hello I am Arjun, profilePic=Smiling, department=Mechanical)
+2025-03-01 11:46:36 [http-nio-8080-exec-1] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 13
+2025-03-01 11:47:22 [http-nio-8080-exec-3] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 11:47:22 [http-nio-8080-exec-3] [INFO] c.b.e.service.EmployeeService Adding employee: EmployeeDTO(name=Tikesh Kardate, salary=250000.0, Gender=Male, startDate=01-03-2025, note=Hello I am Tikesh, profilePic=Smiling, department=Mechanical)
+2025-03-01 11:47:22 [http-nio-8080-exec-3] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 14
+2025-03-01 11:48:49 [http-nio-8080-exec-5] [WARN] c.b.e.service.EmployeeService Deleting employee with ID: 3
+2025-03-01 11:48:50 [http-nio-8080-exec-5] [ERROR] c.b.e.service.EmployeeService Employee not found with ID: 3
+2025-03-01 11:48:50 [http-nio-8080-exec-5] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [com.bridgelabz.employeepayrollapp.exceptions.EmployeeNotFoundException: No employee found with ID: 3]
+2025-03-01 11:48:59 [http-nio-8080-exec-7] [WARN] o.s.w.s.m.s.DefaultHandlerExceptionResolver Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'DELETE' is not supported]
+2025-03-01 11:49:06 [http-nio-8080-exec-8] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 2
+2025-03-01 11:49:06 [http-nio-8080-exec-8] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 2
+2025-03-01 11:49:06 [http-nio-8080-exec-8] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 2]
+2025-03-01 11:49:12 [http-nio-8080-exec-10] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 1
+2025-03-01 11:49:12 [http-nio-8080-exec-10] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 1
+2025-03-01 11:49:12 [http-nio-8080-exec-10] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 1]
+2025-03-01 12:09:06 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 16612 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-03-01 12:09:06 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-01 12:09:06 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-03-01 12:09:12 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01 12:09:13 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 8.318 seconds (process running for 9.375)
+2025-03-01 12:09:23 [http-nio-8080-exec-1] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 1
+2025-03-01 12:09:23 [http-nio-8080-exec-1] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 1
+2025-03-01 12:09:23 [http-nio-8080-exec-1] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 1]
+2025-03-01 12:09:52 [http-nio-8080-exec-4] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 12:09:52 [http-nio-8080-exec-4] [INFO] c.b.e.service.EmployeeService Adding employee: EmployeeDTO(name=Tikesh Kardate, salary=250000.0, Gender=Male, startDate=01-03-2025, note=Hello I am Tikesh, profilePic=Smiling, department=Mechanical)
+2025-03-01 12:09:52 [http-nio-8080-exec-4] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 15
+2025-03-01 12:10:18 [http-nio-8080-exec-5] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 12:10:18 [http-nio-8080-exec-5] [INFO] c.b.e.service.EmployeeService Adding employee: EmployeeDTO(name=Arjun Chouhan, salary=250000.0, Gender=Male, startDate=01-03-2025, note=Hello I am Arjun, profilePic=Smiling, department=Mechanical)
+2025-03-01 12:10:18 [http-nio-8080-exec-5] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 16
+2025-03-01 12:11:36 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 14860 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-03-01 12:11:36 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-01 12:11:36 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-03-01 12:11:41 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01 12:11:42 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 6.934 seconds (process running for 7.728)
+2025-03-01 12:11:47 [http-nio-8080-exec-3] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 12:11:47 [http-nio-8080-exec-3] [INFO] c.b.e.service.EmployeeService Adding employee: com.bridgelabz.employeepayrollapp.dto.EmployeeDTO@3cffdb28
+2025-03-01 12:11:47 [http-nio-8080-exec-3] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 17
+2025-03-01 12:11:53 [http-nio-8080-exec-2] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 12:11:53 [http-nio-8080-exec-2] [INFO] c.b.e.service.EmployeeService Adding employee: com.bridgelabz.employeepayrollapp.dto.EmployeeDTO@2c967f1b
+2025-03-01 12:11:53 [http-nio-8080-exec-2] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 18
+2025-03-01 12:12:09 [http-nio-8080-exec-4] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 2
+2025-03-01 12:12:09 [http-nio-8080-exec-4] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 2
+2025-03-01 12:12:09 [http-nio-8080-exec-4] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 2]
+2025-03-01 12:14:15 [http-nio-8080-exec-6] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 2
+2025-03-01 12:14:15 [http-nio-8080-exec-6] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 2
+2025-03-01 12:14:15 [http-nio-8080-exec-6] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 2]
+2025-03-01 12:14:34 [http-nio-8080-exec-9] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 12:14:34 [http-nio-8080-exec-9] [INFO] c.b.e.service.EmployeeService Adding employee: com.bridgelabz.employeepayrollapp.dto.EmployeeDTO@4c2b2b6
+2025-03-01 12:14:34 [http-nio-8080-exec-9] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 19
+2025-03-01 12:14:47 [http-nio-8080-exec-10] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 12:14:47 [http-nio-8080-exec-10] [INFO] c.b.e.service.EmployeeService Adding employee: com.bridgelabz.employeepayrollapp.dto.EmployeeDTO@7a6dfe0a
+2025-03-01 12:14:47 [http-nio-8080-exec-10] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 20
+2025-03-01 12:14:58 [http-nio-8080-exec-1] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 12:14:58 [http-nio-8080-exec-1] [INFO] c.b.e.service.EmployeeService Adding employee: com.bridgelabz.employeepayrollapp.dto.EmployeeDTO@5e06b30d
+2025-03-01 12:14:59 [http-nio-8080-exec-1] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 21
+2025-03-01 12:15:15 [http-nio-8080-exec-3] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 2
+2025-03-01 12:15:15 [http-nio-8080-exec-3] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 2
+2025-03-01 12:15:15 [http-nio-8080-exec-3] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 2]
+2025-03-01 12:15:21 [http-nio-8080-exec-4] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 1
+2025-03-01 12:15:21 [http-nio-8080-exec-4] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 1
+2025-03-01 12:15:21 [http-nio-8080-exec-4] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 1]
+2025-03-01 12:21:07 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 3028 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-03-01 12:21:07 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-01 12:21:07 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-03-01 12:21:13 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01 12:21:13 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 7.032 seconds (process running for 7.894)
+2025-03-01 12:21:19 [http-nio-8080-exec-1] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 1
+2025-03-01 12:21:19 [http-nio-8080-exec-1] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 1
+2025-03-01 12:21:20 [http-nio-8080-exec-1] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 1]
+2025-03-01 12:21:34 [http-nio-8080-exec-4] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 12:21:34 [http-nio-8080-exec-4] [INFO] c.b.e.service.EmployeeService Adding employee: com.bridgelabz.employeepayrollapp.dto.EmployeeDTO@2a3ccbef
+2025-03-01 12:21:34 [http-nio-8080-exec-4] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 22
+2025-03-01 12:21:45 [http-nio-8080-exec-5] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 12:21:45 [http-nio-8080-exec-5] [INFO] c.b.e.service.EmployeeService Adding employee: com.bridgelabz.employeepayrollapp.dto.EmployeeDTO@62eb8585
+2025-03-01 12:21:45 [http-nio-8080-exec-5] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 23
+2025-03-01 12:21:56 [http-nio-8080-exec-6] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 3
+2025-03-01 12:21:56 [http-nio-8080-exec-6] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 3
+2025-03-01 12:21:56 [http-nio-8080-exec-6] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 3]
+2025-03-01 12:22:01 [http-nio-8080-exec-8] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 22
+2025-03-01 12:22:01 [http-nio-8080-exec-8] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 22
+2025-03-01 12:22:46 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 17096 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-03-01 12:22:46 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-01 12:22:46 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-03-01 12:22:52 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01 12:22:53 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 7.521 seconds (process running for 8.396)
+2025-03-01 12:23:05 [http-nio-8080-exec-2] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 21
+2025-03-01 12:23:05 [http-nio-8080-exec-2] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 21
+2025-03-01 12:23:12 [http-nio-8080-exec-3] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 14
+2025-03-01 12:23:12 [http-nio-8080-exec-3] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 14
+2025-03-01 15:48:01 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 18440 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-03-01 15:48:01 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-01 15:48:01 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-03-01 15:48:08 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01 15:48:08 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 8.497 seconds (process running for 9.557)
+2025-03-01 15:48:46 [http-nio-8080-exec-1] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 15:48:46 [http-nio-8080-exec-1] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('Mechanical')]
+2025-03-01 15:49:28 [http-nio-8080-exec-4] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 15:49:28 [http-nio-8080-exec-4] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "01-03-2025": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '01-03-2025' could not be parsed at index 2]
+2025-03-01 15:50:10 [http-nio-8080-exec-6] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 15:50:10 [http-nio-8080-exec-6] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Unexpected character ('"' (code 34)): was expecting comma to separate Array entries]
+2025-03-01 15:50:27 [http-nio-8080-exec-8] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 15:50:27 [http-nio-8080-exec-8] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('Mechanical')]
+2025-03-01 15:50:31 [http-nio-8080-exec-10] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 15:50:31 [http-nio-8080-exec-10] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot construct instance of `java.util.ArrayList` (although at least one Creator exists): no String-argument constructor/factory method to deserialize from String value ('Mechanical')]
+2025-03-01 15:58:45 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 7656 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-03-01 15:58:45 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-01 15:58:45 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-03-01 15:58:58 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01 15:58:59 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 15.325 seconds (process running for 16.718)
+2025-03-01 16:00:25 [http-nio-8080-exec-2] [INFO] c.b.e.controller.EmployeeController Updating employee with ID: 1
+2025-03-01 16:00:37 [http-nio-8080-exec-4] [INFO] c.b.e.controller.EmployeeController Updating employee with ID: 1
+2025-03-01 16:01:10 [http-nio-8080-exec-6] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:01:10 [http-nio-8080-exec-6] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "11-01-2026": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '11-01-2026' could not be parsed at index 2]
+2025-03-01 16:01:26 [http-nio-8080-exec-7] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:01:26 [http-nio-8080-exec-7] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "11-001-2026": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '11-001-2026' could not be parsed at index 2]
+2025-03-01 16:01:37 [http-nio-8080-exec-10] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:01:37 [http-nio-8080-exec-10] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "11-001-2025": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '11-001-2025' could not be parsed at index 2]
+2025-03-01 16:01:46 [http-nio-8080-exec-2] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:01:46 [http-nio-8080-exec-2] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "11 001 2025": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '11 001 2025' could not be parsed at index 3]
+2025-03-01 16:02:07 [http-nio-8080-exec-4] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:02:07 [http-nio-8080-exec-4] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "2025 03 01": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '2025 03 01' could not be parsed at index 2]
+2025-03-01 16:02:30 [http-nio-8080-exec-6] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:02:30 [http-nio-8080-exec-6] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.http.converter.HttpMessageNotReadableException: JSON parse error: Cannot deserialize value of type `java.time.LocalDate` from String "22 012 2024": Failed to deserialize java.time.LocalDate: (java.time.format.DateTimeParseException) Text '22 012 2024' could not be parsed at index 3]
+2025-03-01 16:02:39 [http-nio-8080-exec-7] [INFO] c.b.e.controller.EmployeeController Updating employee with ID: 1
+2025-03-01 16:04:20 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 21176 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-03-01 16:04:20 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-01 16:04:20 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-03-01 16:04:31 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01 16:04:32 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 13.454 seconds (process running for 14.666)
+2025-03-01 16:05:02 [http-nio-8080-exec-1] [INFO] c.b.e.controller.EmployeeController Updating employee with ID: 1
+2025-03-01 16:05:02 [http-nio-8080-exec-1] [INFO] c.b.e.service.EmployeeService Updating employee with ID: 1
+2025-03-01 16:05:02 [http-nio-8080-exec-1] [WARN] c.b.e.service.EmployeeService Employee not found with ID: 1
+2025-03-01 16:05:26 [http-nio-8080-exec-4] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 1
+2025-03-01 16:05:26 [http-nio-8080-exec-4] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 1
+2025-03-01 16:05:26 [http-nio-8080-exec-4] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:05:26 [http-nio-8080-exec-4] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 1]
+2025-03-01 16:05:44 [http-nio-8080-exec-6] [INFO] c.b.e.controller.EmployeeController Updating employee with ID: 1
+2025-03-01 16:05:44 [http-nio-8080-exec-6] [INFO] c.b.e.service.EmployeeService Updating employee with ID: 1
+2025-03-01 16:05:44 [http-nio-8080-exec-6] [WARN] c.b.e.service.EmployeeService Employee not found with ID: 1
+2025-03-01 16:06:06 [http-nio-8080-exec-7] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 16:06:06 [http-nio-8080-exec-7] [INFO] c.b.e.service.EmployeeService Adding employee: EmployeeDTO(name=Arjun Rajput, salary=250000.0, Gender=male, startDate=2025-03-01, note=Hello I am Arjun, profilePic=Smiling, department=[Mechanical, Computer Science])
+2025-03-01 16:06:06 [http-nio-8080-exec-7] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 24
+2025-03-01 16:08:58 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 16972 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-03-01 16:08:58 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-01 16:08:58 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-03-01 16:09:09 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01 16:09:10 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 12.517 seconds (process running for 13.758)
+2025-03-01 16:09:20 [http-nio-8080-exec-4] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 16:09:20 [http-nio-8080-exec-4] [INFO] c.b.e.service.EmployeeService Adding employee: EmployeeDTO(id=null, name=Arjun Rajput, salary=250000.0, Gender=male, startDate=2025-03-01, note=Hello I am Arjun, profilePic=Smiling, department=[Mechanical, Computer Science])
+2025-03-01 16:09:21 [http-nio-8080-exec-4] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 25
+2025-03-01 16:09:47 [http-nio-8080-exec-2] [INFO] c.b.e.controller.EmployeeController Updating employee with ID: 1
+2025-03-01 16:09:47 [http-nio-8080-exec-2] [INFO] c.b.e.service.EmployeeService Updating employee with ID: 1
+2025-03-01 16:09:47 [http-nio-8080-exec-2] [WARN] c.b.e.service.EmployeeService Employee not found with ID: 1
+2025-03-01 16:09:54 [http-nio-8080-exec-3] [INFO] c.b.e.controller.EmployeeController Updating employee with ID: 5
+2025-03-01 16:09:54 [http-nio-8080-exec-3] [INFO] c.b.e.service.EmployeeService Updating employee with ID: 5
+2025-03-01 16:09:54 [http-nio-8080-exec-3] [WARN] c.b.e.service.EmployeeService Employee not found with ID: 5
+2025-03-01 16:10:11 [http-nio-8080-exec-7] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 5
+2025-03-01 16:10:11 [http-nio-8080-exec-7] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 5
+2025-03-01 16:10:11 [http-nio-8080-exec-7] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:10:11 [http-nio-8080-exec-7] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 5]
+2025-03-01 16:11:30 [http-nio-8080-exec-6] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 25
+2025-03-01 16:11:30 [http-nio-8080-exec-6] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 25
+2025-03-01 16:11:44 [http-nio-8080-exec-9] [INFO] c.b.e.controller.EmployeeController Updating employee with ID: 25
+2025-03-01 16:11:44 [http-nio-8080-exec-9] [INFO] c.b.e.service.EmployeeService Updating employee with ID: 25
+2025-03-01 16:11:44 [http-nio-8080-exec-9] [INFO] c.b.e.service.EmployeeService Employee updated with ID: 25
+2025-03-01 16:11:53 [http-nio-8080-exec-8] [INFO] c.b.e.controller.EmployeeController Updating employee with ID: 25
+2025-03-01 16:11:53 [http-nio-8080-exec-8] [INFO] c.b.e.service.EmployeeService Updating employee with ID: 25
+2025-03-01 16:11:53 [http-nio-8080-exec-8] [INFO] c.b.e.service.EmployeeService Employee updated with ID: 25
+2025-03-01 16:13:03 [http-nio-8080-exec-4] [INFO] c.b.e.controller.EmployeeController Fetching all employees
+2025-03-01 16:13:03 [http-nio-8080-exec-4] [INFO] c.b.e.service.EmployeeService Fetching all employees...
+2025-03-01 16:13:03 [http-nio-8080-exec-4] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:13:03 [http-nio-8080-exec-4] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.orm.jpa.JpaSystemException: could not deserialize]
+2025-03-01 16:24:44 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 20232 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-03-01 16:24:44 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-01 16:24:44 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-03-01 16:24:55 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01 16:24:56 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 14.241 seconds (process running for 15.921)
+2025-03-01 16:25:07 [http-nio-8080-exec-1] [INFO] c.b.e.controller.EmployeeController Fetching all employees
+2025-03-01 16:25:07 [http-nio-8080-exec-1] [INFO] c.b.e.service.EmployeeService Fetching all employees...
+2025-03-01 16:25:07 [http-nio-8080-exec-1] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:25:08 [http-nio-8080-exec-1] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.orm.jpa.JpaSystemException: could not deserialize]
+2025-03-01 16:26:15 [http-nio-8080-exec-4] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 16:26:15 [http-nio-8080-exec-4] [INFO] c.b.e.service.EmployeeService Adding employee: EmployeeDTO(id=null, name=Shristy Mishra, salary=250000.0, gender=female, startDate=2025-03-01, note=Hello I am Shristy, profilePic=Smiling, department=[Aiml, Computer Science])
+2025-03-01 16:26:16 [http-nio-8080-exec-4] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 26
+2025-03-01 16:26:35 [http-nio-8080-exec-5] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 24
+2025-03-01 16:26:35 [http-nio-8080-exec-5] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 24
+2025-03-01 16:26:40 [http-nio-8080-exec-6] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 1
+2025-03-01 16:26:40 [http-nio-8080-exec-6] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 1
+2025-03-01 16:26:40 [http-nio-8080-exec-6] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:26:40 [http-nio-8080-exec-6] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 1]
+2025-03-01 16:26:47 [http-nio-8080-exec-8] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 2
+2025-03-01 16:26:47 [http-nio-8080-exec-8] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 2
+2025-03-01 16:26:47 [http-nio-8080-exec-8] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:26:47 [http-nio-8080-exec-8] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 2]
+2025-03-01 16:26:49 [http-nio-8080-exec-10] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 3
+2025-03-01 16:26:49 [http-nio-8080-exec-10] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 3
+2025-03-01 16:26:49 [http-nio-8080-exec-10] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:26:49 [http-nio-8080-exec-10] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 3]
+2025-03-01 16:26:51 [http-nio-8080-exec-1] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 4
+2025-03-01 16:26:51 [http-nio-8080-exec-1] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 4
+2025-03-01 16:26:51 [http-nio-8080-exec-1] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:26:51 [http-nio-8080-exec-1] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 4]
+2025-03-01 16:26:53 [http-nio-8080-exec-4] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 5
+2025-03-01 16:26:53 [http-nio-8080-exec-4] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 5
+2025-03-01 16:26:53 [http-nio-8080-exec-4] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:26:53 [http-nio-8080-exec-4] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 5]
+2025-03-01 16:26:56 [http-nio-8080-exec-6] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 6
+2025-03-01 16:26:56 [http-nio-8080-exec-6] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 6
+2025-03-01 16:26:56 [http-nio-8080-exec-6] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:26:56 [http-nio-8080-exec-6] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 6]
+2025-03-01 16:26:58 [http-nio-8080-exec-8] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 7
+2025-03-01 16:26:58 [http-nio-8080-exec-8] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 7
+2025-03-01 16:26:58 [http-nio-8080-exec-8] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:26:58 [http-nio-8080-exec-8] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [java.lang.RuntimeException: Employee not found with ID: 7]
+2025-03-01 16:27:02 [http-nio-8080-exec-10] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 11
+2025-03-01 16:27:02 [http-nio-8080-exec-10] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 11
+2025-03-01 16:27:02 [http-nio-8080-exec-10] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:27:02 [http-nio-8080-exec-10] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.orm.jpa.JpaSystemException: could not deserialize]
+2025-03-01 16:27:08 [http-nio-8080-exec-1] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 22
+2025-03-01 16:27:08 [http-nio-8080-exec-1] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 22
+2025-03-01 16:27:08 [http-nio-8080-exec-1] [ERROR] c.b.e.e.EmployeePayrollExceptionHandler Run Time Exception
+2025-03-01 16:27:08 [http-nio-8080-exec-1] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.orm.jpa.JpaSystemException: could not deserialize]
+2025-03-01 16:27:13 [http-nio-8080-exec-4] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 25
+2025-03-01 16:27:13 [http-nio-8080-exec-4] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 25
+2025-03-01 16:29:14 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 16640 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-03-01 16:29:14 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-01 16:29:14 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-03-01 16:29:24 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01 16:29:25 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 12.288 seconds (process running for 13.577)
+2025-03-01 16:29:46 [http-nio-8080-exec-2] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 16:29:46 [http-nio-8080-exec-2] [INFO] c.b.e.service.EmployeeService Adding employee: EmployeeDTO(id=null, name=Shristy Mishra, salary=250000.0, gender=female, startDate=2025-03-01, note=Hello I am Shristy, profilePic=Smiling, department=[Aiml, Computer Science])
+2025-03-01 16:29:47 [http-nio-8080-exec-2] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 1
+2025-03-01 16:30:27 [http-nio-8080-exec-3] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 16:30:28 [http-nio-8080-exec-3] [INFO] c.b.e.service.EmployeeService Adding employee: EmployeeDTO(id=null, name=Arjun Chouhan, salary=2.5E7, gender=male, startDate=2025-03-01, note=Hello I am Arjun, profilePic=Happy, department=[Mechnical, Computer Science])
+2025-03-01 16:30:28 [http-nio-8080-exec-3] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 2
+2025-03-01 16:30:45 [http-nio-8080-exec-6] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 16:30:45 [http-nio-8080-exec-6] [INFO] c.b.e.service.EmployeeService Adding employee: EmployeeDTO(id=null, name=Arjun Chouhan, salary=2.5E7, gender=male, startDate=2024-03-01, note=Hello I am Arjun, profilePic=Happy, department=[Mechnical, Computer Science])
+2025-03-01 16:30:45 [http-nio-8080-exec-6] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 3
+2025-03-01 16:30:54 [http-nio-8080-exec-7] [INFO] c.b.e.controller.EmployeeController Fetching all employees
+2025-03-01 16:30:54 [http-nio-8080-exec-7] [INFO] c.b.e.service.EmployeeService Fetching all employees...

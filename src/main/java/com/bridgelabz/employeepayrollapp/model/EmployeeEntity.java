@@ -8,15 +8,23 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
 
+import java.time.LocalDate;
+import java.util.List;
+
 @Entity
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
-public class EmployeeEntity {
+public class
+EmployeeEntity {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
     private String name;
     private double salary;
-    private String department;
+    private List<String> department;
+    private String gender;
+    private LocalDate startDate;
+    private String note;
+    private String profilePic;
 }

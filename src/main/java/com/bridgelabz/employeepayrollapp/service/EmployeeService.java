@@ -68,6 +68,10 @@ public class EmployeeService{
             employee.setName(employeeDTO.getName());
             employee.setSalary(employeeDTO.getSalary());
             employee.setDepartment(employeeDTO.getDepartment());
+            employee.setGender(employeeDTO.getGender());
+            employee.setStartDate(employeeDTO.getStartDate());
+            employee.setNote(employeeDTO.getNote());
+            employee.setProfilePic(employeeDTO.getProfilePic());
 
             EmployeeEntity updatedEmployee = employeeRepository.save(employee);
             log.info("Employee updated with ID: {}", id);
@@ -96,7 +100,14 @@ public class EmployeeService{
 
     // Convert Employee to EmployeeDTO
     private EmployeeDTO convertToDTO(EmployeeEntity employee) {
-        return new EmployeeDTO(employee.getName(), employee.getSalary(), employee.getDepartment());
+        return new EmployeeDTO(employee.getId(),
+                employee.getName(),
+                employee.getSalary(),
+                employee.getGender(),
+                employee.getStartDate(),
+                employee.getNote(),
+                employee.getProfilePic(),
+                employee.getDepartment());
     }
 
     // Convert EmployeeDTO to Employee
@@ -105,6 +116,10 @@ public class EmployeeService{
         employee.setName(employeeDTO.getName());
         employee.setSalary(employeeDTO.getSalary());
         employee.setDepartment(employeeDTO.getDepartment());
+        employee.setGender(employeeDTO.getGender());
+        employee.setStartDate(employeeDTO.getStartDate());
+        employee.setNote(employeeDTO.getNote());
+        employee.setProfilePic(employeeDTO.getProfilePic());
         return employee;
     }
 }
