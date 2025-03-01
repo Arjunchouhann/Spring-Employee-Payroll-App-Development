@@ -1,7 +1,20 @@
-2025-02-28 04:02:51 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 16824 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
-2025-02-28 04:02:51 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
-2025-02-28 04:02:51 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
-2025-02-28 04:02:57 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2025-02-28 04:02:57 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 7.267 seconds (process running for 8.099)
-2025-02-28 04:03:40 [http-nio-8080-exec-2] [INFO] c.b.e.controller.EmployeeController Create employee endpoint called
-2025-02-28 04:03:54 [http-nio-8080-exec-3] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<?> com.bridgelabz.employeepayrollapp.controller.EmployeeController.addEmployee(com.bridgelabz.employeepayrollapp.dto.EmployeeDTO): [Field error in object 'employeeDTO' on field 'name': rejected value [ajun]; codes [Pattern.employeeDTO.name,Pattern.name,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [employeeDTO.name,name]; arguments []; default message [name],[Ljakarta.validation.constraints.Pattern$Flag;@39c60f94,^[A-Z]{1}[a-zA-Z\s]{2,}$]; default message [Employee name Invalid]] ]
+2025-03-01 10:08:13 [HikariPool-1 housekeeper] [WARN] com.zaxxer.hikari.pool.HikariPool HikariPool-1 - Thread starvation or clock leap detected (housekeeper delta=12h58m26s437ms138µs100ns).
+2025-03-01 10:51:14 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 20784 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-03-01 10:51:14 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-01 10:51:14 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-03-01 10:51:24 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01 10:51:25 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 12.557 seconds (process running for 13.912)
+2025-03-01 10:54:58 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 1240 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-03-01 10:54:58 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-01 10:54:58 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-03-01 10:55:09 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01 10:55:10 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 13.988 seconds (process running for 15.174)
+2025-03-01 10:55:19 [http-nio-8080-exec-2] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 10:55:19 [http-nio-8080-exec-2] [INFO] c.b.e.service.EmployeeService Adding employee: com.bridgelabz.employeepayrollapp.dto.EmployeeDTO@3e9c4402
+2025-03-01 10:55:19 [http-nio-8080-exec-2] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 11
+2025-03-01 10:55:53 [http-nio-8080-exec-5] [INFO] c.b.e.controller.EmployeeController Creating new employee
+2025-03-01 10:55:53 [http-nio-8080-exec-5] [INFO] c.b.e.service.EmployeeService Adding employee: com.bridgelabz.employeepayrollapp.dto.EmployeeDTO@7b3e6162
+2025-03-01 10:55:53 [http-nio-8080-exec-5] [INFO] c.b.e.service.EmployeeService Employee saved with ID: 12
+2025-03-01 10:56:17 [http-nio-8080-exec-6] [WARN] c.b.e.service.EmployeeService Deleting employee with ID: 3
+2025-03-01 10:56:19 [http-nio-8080-exec-6] [ERROR] c.b.e.service.EmployeeService Employee not found with ID: 3
+2025-03-01 10:56:19 [http-nio-8080-exec-6] [WARN] o.s.w.s.m.m.a.ExceptionHandlerExceptionResolver Resolved [com.bridgelabz.employeepayrollapp.exceptions.EmployeeNotFoundException: No employee found with ID: 3]
