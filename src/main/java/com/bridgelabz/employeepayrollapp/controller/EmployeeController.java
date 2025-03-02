@@ -1,7 +1,6 @@
 package com.bridgelabz.employeepayrollapp.controller;
 
 import com.bridgelabz.employeepayrollapp.dto.EmployeeDTO;
-import com.bridgelabz.employeepayrollapp.service.EmployeeService;
 import com.bridgelabz.employeepayrollapp.service.IEmployeeService;
 import jakarta.validation.Valid;
 import lombok.extern.slf4j.Slf4j;
@@ -20,6 +19,13 @@ public class EmployeeController {
 
     @Autowired
     private IEmployeeService employeeService;
+
+    //Get employees department-wise
+    @GetMapping("/get/department/{department}")
+    public ResponseEntity<List<EmployeeDTO>> getByDepartment(){
+        log.info("Getting employee with specific department");
+        return ResponseEntity.ok(employeeService.findByDepartment("sales"));
+    }
 
     // Get all employees
     @GetMapping

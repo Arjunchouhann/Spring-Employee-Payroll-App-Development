@@ -101,6 +101,16 @@ public class EmployeeService implements IEmployeeService {
         return ResponseEntity.ok("Employee with ID " + id + " deleted successfully");
     }
 
+    //Get the Employees Department-Wise
+    @Override
+    public List<EmployeeDTO> findByDepartment(String department) {
+        List<EmployeeEntity>employees = employeeRepository.findByDepartment(department);
+        List<EmployeeDTO>employeeDTOS = new ArrayList<>();
+        for(EmployeeEntity employee : employees){
+            employeeDTOS.add(convertToDTO(employee));
+        }
+        return employeeDTOS;
+    }
 
     // Convert Employee to EmployeeDTO
     private EmployeeDTO convertToDTO(EmployeeEntity employee) {
