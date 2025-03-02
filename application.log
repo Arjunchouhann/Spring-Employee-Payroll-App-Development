@@ -16,3 +16,14 @@
 2025-03-02 12:58:49 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 15.278 seconds (process running for 16.613)
 2025-03-02 12:59:27 [http-nio-8080-exec-1] [INFO] c.b.e.controller.EmployeeController Fetching all employees
 2025-03-02 12:59:27 [http-nio-8080-exec-1] [INFO] c.b.e.service.EmployeeService Fetching all employees...
+2025-03-02 16:35:42 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Starting EmployeePayrollAppApplication using Java 21.0.1 with PID 21160 (C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp\target\classes started by FTT in C:\Users\FTT\OneDrive\Desktop\SpringBoot\EmployeePayrollApp)
+2025-03-02 16:35:42 [restartedMain] [DEBUG] c.b.e.EmployeePayrollAppApplication Running with Spring Boot v3.4.3, Spring v6.2.3
+2025-03-02 16:35:42 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication The following 1 profile is active: "dev"
+2025-03-02 16:35:48 [restartedMain] [WARN] o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-02 16:35:49 [restartedMain] [INFO] c.b.e.EmployeePayrollAppApplication Started EmployeePayrollAppApplication in 7.606 seconds (process running for 8.695)
+2025-03-02 16:36:06 [http-nio-8080-exec-1] [INFO] c.b.e.controller.EmployeeController Fetching all employees
+2025-03-02 16:36:06 [http-nio-8080-exec-1] [INFO] c.b.e.service.EmployeeService Fetching all employees...
+2025-03-02 16:36:23 [http-nio-8080-exec-4] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 1
+2025-03-02 16:36:23 [http-nio-8080-exec-4] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 1
+2025-03-02 16:36:26 [http-nio-8080-exec-5] [INFO] c.b.e.controller.EmployeeController Fetching employee with ID: 2
+2025-03-02 16:36:26 [http-nio-8080-exec-5] [INFO] c.b.e.service.EmployeeService Fetching employee with ID: 2

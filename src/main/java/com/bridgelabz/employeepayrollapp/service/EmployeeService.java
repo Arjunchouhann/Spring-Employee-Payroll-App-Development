@@ -1,13 +1,11 @@
 package com.bridgelabz.employeepayrollapp.service;
 
-
 import com.bridgelabz.employeepayrollapp.dto.EmployeeDTO;
 import com.bridgelabz.employeepayrollapp.exceptions.EmployeeNotFoundException;
 import com.bridgelabz.employeepayrollapp.model.EmployeeEntity;
 import com.bridgelabz.employeepayrollapp.repository.EmployeeRepository;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
@@ -17,12 +15,13 @@ import java.util.Optional;
 
 @Service
 @Slf4j
-public class EmployeeService{
+public class EmployeeService implements IEmployeeService {
 
     @Autowired
     private EmployeeRepository employeeRepository;
 
     // Save the employee and return DTO
+    @Override
     public EmployeeDTO addEmployee(EmployeeDTO employeeDTO) {
         log.info("Adding employee: {}", employeeDTO);
 
@@ -34,6 +33,7 @@ public class EmployeeService{
     }
 
     // Get all employees as DTOs (without streams)
+    @Override
     public List<EmployeeDTO> getAllEmployee() {
         log.info("Fetching all employees...");
         List<EmployeeEntity> employees = employeeRepository.findAll();
@@ -46,7 +46,9 @@ public class EmployeeService{
         return employeeDTOs;
     }
 
+
     // Get employee by ID as DTO
+    @Override
     public Optional<EmployeeDTO> getEmployeeById(Long id) {
         log.info("Fetching employee with ID: {}", id);
         Optional<EmployeeEntity> optionalEmployee = employeeRepository.findById(id);
@@ -59,6 +61,7 @@ public class EmployeeService{
     }
 
     // Update employee and return DTO
+    @Override
     public EmployeeDTO updateEmployee(Long id, EmployeeDTO employeeDTO) {
         log.info("Updating employee with ID: {}", id);
 
@@ -72,7 +75,7 @@ public class EmployeeService{
             employee.setStartDate(employeeDTO.getStartDate());
             employee.setNote(employeeDTO.getNote());
             employee.setProfilePic(employeeDTO.getProfilePic());
-
+            //     employee = convertToEntity(employeeDTO);
             EmployeeEntity updatedEmployee = employeeRepository.save(employee);
             log.info("Employee updated with ID: {}", id);
             return convertToDTO(updatedEmployee);
@@ -84,6 +87,7 @@ public class EmployeeService{
     }
 
     // Delete employee
+    @Override
     public ResponseEntity<String> deleteEmployee(Long id) {
         log.warn("Deleting employee with ID: {}", id);
 
